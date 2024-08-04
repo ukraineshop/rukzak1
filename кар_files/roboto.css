@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), local('Roboto-Thin'), url("https://smart.orstore.space/files/robotothin.woff2") format('woff2'), url("https://smart.orstore.space/files/robotothin.woff") format('woff'), url("https://smart.orstore.space/files/robotothin.ttf") format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url("https://smart.orstore.space/files/robotothinitalic.woff2") format('woff2'), url("https://smart.orstore.space/files/robotothinitalic.woff") format('woff'), url("https://smart.orstore.space/files/robotothinitalic.ttf") format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'), url("https://smart.orstore.space/files/robotolight.woff2") format('woff2'), url("https://smart.orstore.space/files/robotolight.woff") format('woff'), url("https://smart.orstore.space/files/robotolight.ttf") format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url("https://smart.orstore.space/files/robotolightitalic.woff2") format('woff2'), url("https://smart.orstore.space/files/robotolightitalic.woff") format('woff'), url("https://smart.orstore.space/files/robotolightitalic.ttf") format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'), url("https://smart.orstore.space/files/roboto.woff2") format('woff2'), url("https://smart.orstore.space/files/roboto.woff") format('woff'), url("https://smart.orstore.space/files/roboto.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Italic'), local('Roboto-Italic'), url("https://smart.orstore.space/files/robotoitalic.woff2") format('woff2'), url("https://smart.orstore.space/files/robotoitalic.woff") format('woff'), url("https://smart.orstore.space/files/robotoitalic.ttf") format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'), url("https://smart.orstore.space/files/robotomedium.woff2") format('woff2'), url("https://smart.orstore.space/files/robotomedium.woff") format('woff'), url("https://smart.orstore.space/files/robotomedium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url("https://smart.orstore.space/files/robotomediumitalic.woff2") format('woff2'), url("https://smart.orstore.space/files/robotomediumitalic.woff") format('woff'), url("https://smart.orstore.space/files/robotomediumitalic.ttf") format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'), url("https://smart.orstore.space/files/robotobold.woff2") format('woff2'), url("https://smart.orstore.space/files/robotobold.woff") format('woff'), url("https://smart.orstore.space/files/robotobold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url("https://smart.orstore.space/files/robotobolditalic.woff2") format('woff2'), url("https://smart.orstore.space/files/robotobolditalic.woff") format('woff'), url("https://smart.orstore.space/files/robotobolditalic.ttf") format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'), url("https://smart.orstore.space/files/robotoblack.woff2") format('woff2'), url("https://smart.orstore.space/files/robotoblack.woff") format('woff'), url("https://smart.orstore.space/files/robotoblack.ttf") format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url("https://smart.orstore.space/files/robotoblackitalic.woff2") format('woff2'), url("https://smart.orstore.space/files/robotoblackitalic.woff") format('woff'), url("https://smart.orstore.space/files/robotoblackitalic.ttf") format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
