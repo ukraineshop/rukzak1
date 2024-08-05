@@ -122,16 +122,15 @@ src="https://www.facebook.com/tr?id=369427809318495&ev=PageView&noscript=1"
 
 
             <script>
+           
                 document.addEventListener('DOMContentLoaded', function() {
                     document.getElementById('order_form1').addEventListener('submit', function(e) {
                         e.preventDefault(); // Запобігаємо стандартній відправці форми
-                     
+                
                         // Отримуємо значення полів форми
                         var name = document.querySelector('#order_form1 input[name="name"]').value;
                         var phone = document.querySelector('#order_form1 input[name="phone"]').value;
                         
-                        
-                     
                         // Формуємо повідомлення
                         var message = `Нове замовлення:\nІм'я та прізвище: ${name} \nТелефон: ${phone};`
                      
@@ -164,18 +163,16 @@ src="https://www.facebook.com/tr?id=369427809318495&ev=PageView&noscript=1"
                     });
                 });
             </script>
-
-            
-            <form class="order_form1" action="./кар_files/thank_you_page.html" method="get">
                 
-<input type="hidden" name="sendemail" value="yes"><input type="hidden" name="redirect" value="yes">
-
-
-<input class="field" type="text" name="name" placeholder="Введіть ваше ім&#39;я та прізвище" required="" value="">
-                <input class="field" type="tel" name="phone" placeholder="Введіть ваш номер телефону" required="" value="">
-               
-                <button class="button">Купити зараз</button>
-            </form>
+    <form id="order_form1" action="./кар_files/thank_you_page.html" method="get">
+        <input type="hidden" name="sendemail" value="yes">
+        <input type="hidden" name="redirect" value="yes">
+    
+        <input class="field" type="text" name="name" placeholder="Введіть ваше ім'я та прізвище" required="">
+        <input class="field" type="tel" name="phone" placeholder="Введіть ваш номер телефону" required="">
+       
+        <button class="button" type="submit">Купити зараз</button>
+    </form>
             <div class="products_count">Залишилося: <span>8</span>&nbsp;товарів по акції!</div>
         </div></header>
 
@@ -584,24 +581,22 @@ src="https://www.facebook.com/tr?id=369427809318495&ev=PageView&noscript=1"
                     <div class="value">899 грн</div>
                 </div>
             </div>
-
-            <script>
+ <script>
+           
                 document.addEventListener('DOMContentLoaded', function() {
                     document.getElementById('order_form2').addEventListener('submit', function(e) {
                         e.preventDefault(); // Запобігаємо стандартній відправці форми
-                     
+                
                         // Отримуємо значення полів форми
                         var name = document.querySelector('#order_form2 input[name="name"]').value;
                         var phone = document.querySelector('#order_form2 input[name="phone"]').value;
-                       
                         
-                     
                         // Формуємо повідомлення
                         var message = `Нове замовлення:\nІм'я та прізвище: ${name} \nТелефон: ${phone};`
                      
                         // Ваш токен та ID чату
-                        var token = '7118339670:AAG5l4DJcCEhpg1d5-RkJ5o1Pl-xbUSjPGo';
-                        var chatId = 978449035; // Замініть YOUR_CHAT_ID на ваш реальний ID чату
+                        var token = '7229902200:AAHJPDM2yOqcdKD9W0KidhKEPGYcXrTwNiE';
+                        var chatId = 1286941791; // Замініть YOUR_CHAT_ID на ваш реальний ID чату
                      
                         // Відправляємо повідомлення через Telegram API
                         fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
@@ -628,18 +623,16 @@ src="https://www.facebook.com/tr?id=369427809318495&ev=PageView&noscript=1"
                     });
                 });
             </script>
-
-
-            <form id="order_form2" class="order_form2" action="./кар_files/thank_you_page.html" method="get">
                 
-<input type="hidden" name="sendemail" value="yes"><input type="hidden" name="redirect" value="yes">
-
-
-<input class="field" type="text" name="name" placeholder="Введіть ваше ім&#39;я та прізвище" required="" value="">
-                <input class="field" type="tel" name="phone" placeholder="Введіть ваш номер телефону" required="" value="">
-                
-                <button class="button">Купити зараз</button>
-            </form>
+    <form id="order_form2" action="./кар_files/thank_you_page.html" method="get">
+        <input type="hidden" name="sendemail" value="yes">
+        <input type="hidden" name="redirect" value="yes">
+    
+        <input class="field" type="text" name="name" placeholder="Введіть ваше ім'я та прізвище" required="">
+        <input class="field" type="tel" name="phone" placeholder="Введіть ваш номер телефону" required="">
+       
+        <button class="button" type="submit">Купити зараз</button>
+    </form>
             <div class="products_count">Залишилося: <span>8</span>&nbsp;товарів по акції!</div>
          </div></section>
 
